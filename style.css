@@ -1,0 +1,60 @@
+body {
+  min-height: 100vh;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><g fill="none" stroke-width="1" stroke="hsl(210, 90%, 30%)"><path d="M 0 30 Q 40 60 20 100"></path><path d="M 20 0 Q 40 60 100 30"></path></g></svg>'),
+    hsl(210, 90%, 45%);
+  background-size: 50px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.main{
+    background: hsl(0, 0%, 100%);
+  padding: 1.5rem 1.25rem;
+  box-shadow: 0 2px 10px -5px hsl(210, 85%, 10%);
+  max-width: 450px;
+  width: 95vw;
+  margin: 1rem auto;
+}
+
+.title{
+    color: hsl(210, 90%, 55%);
+}
+
+.form {
+  display: block;
+  max-width: 450px;
+  width: 95vw;
+  
+}
+
+.textarea {
+  display: block;
+  width: 97%;
+  height: 200px;
+  font-family: inherit;
+  resize: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  /* style the outline with a color matching the palette */
+  border: 2px solid hsl(210, 90%, 85%);
+  outline-color: hsl(210, 90%, 60%);
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.25rem 1rem;
+  color: hsl(0, 0%, 100%);
+  background: hsl(210, 90%, 55%);
+  border: 2px solid hsl(210, 90%, 55%);
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  outline-color: hsl(210, 90%, 60%);
+}
+
+.result {
+color: hsl(210, 90%, 55%);
+font-size: 24px;
+}
